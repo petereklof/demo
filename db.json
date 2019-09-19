@@ -1,14 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "data": {
+        "stylistCategories": [
+            { "id": 1, "name": "Creative Director"},
+            { "id": 2, "name": "Master Topstylist"},
+            { "id": 3, "name": "Topstylist"},
+            { "id": 4, "name": "Barber/Stylist"},
+            { "id": 5, "name": "Hairstylist"},
+            { "id": 6, "name": "Junior Hairstylist"},
+            { "id": 7, "name": "Trainee/skolelev"},
+            { "id": 8, "name": "Master Barber/Stylist"}
+        ],
+        "stylists": {
+            "lulea": [
+                { "name": "Mari", "category": 1, "photo": "2018-mari.jpg"},
+                { "name": "Petra", "category": 3, "photo": "20180313-249crweb-petra.jpg"},
+                { "name": "Jessica", "category": 3, "photo": "20180313-197crweb-jessica.jpg"},
+                { "name": "Viktoria", "category": 5, "photo": "20180313-286crcrweb-viktoria.jpg"},
+                { "name": "Annette", "category": 2, "photo": "20180313-105crweb-annette.jpg"},
+                { "name": "Cassandra", "category": 5, "photo": "20180925-019crcrweb-cassandra.jpg"},
+                { "name": "Amanda", "category": 6, "photo": "20180410-074crweb-amanda.jpg"},
+                { "name": "George", "category": 4, "photo": "20180313-119crweb-george.jpg"},
+                { "name": "Malin", "category": 5, "photo": "20180313-333crweb-malin.jpg"}
+            ],
+            "kiruna": [
+                { "name": "Mari", "category": 1, "photo": "2018-mari.jpg"},
+                { "name": "Sanne", "category": 5, "photo": "kiruna_sanne.jpg"},
+                { "name": "Cajsa", "category": 5, "photo": "kiruna_cajsa.jpg"},
+                { "name": "Kajsa", "category": 7, "photo": "kiruna_kajsa.jpg"},
+                { "name": "Janna", "category": 5, "photo": "kiruna_janna.jpg"},
+                { "name": "Alice", "category": 7, "photo": "kiruna_alice.jpg"},
+                { "name": "Hanna", "category": 6, "photo": "kiruna_hanna.jpg"}
+            ],
+            "umea": [
+                { "name": "Mari", "category": 1, "photo": "2018-mari.jpg"},
+                { "name": "Marcus", "category": 8, "photo": "umea_marcus.jpg"},
+                { "name": "Johanna R", "category": 3, "photo": "umea_johanna_r.jpg"},
+                { "name": "Sarah", "category": 3, "photo": "umea_sarah.jpg"},
+                { "name": "Sabina", "category": 6, "photo": "umea_sabina.jpg"},
+                { "name": "Liliana", "category": 6, "photo": "umea_liliana.jpg"},
+                { "name": "Matilda", "category": 7, "photo": "umea_matilda.jpg"},
+                { "name": "Tua", "category": 6, "photo": "umea_tua.jpg"}
+            ]
+        },
+        "treatments": {
+            "cutNMake": [
+                { "name": "Classic haircut-Klipping dam och herr (60 min)", "price": ["850", "750", "695", "610", "595", "520", "420", "695"]},
+                { "name": "Back and the sides", "price": ["350", "250", "250", "250", "250", "175", "150", "250"]},
+                { "name": "Junior haircut - Klippning barn,max 7 år, utan tvättning av hår(30 min)", "price": ["-", "-", "-", "610", "495", "450", "395", "695"]},
+                { "name": "Classic cut and color- Klipp och färg med en vald nyans. rekommenderas till korta hår120 min)",  "price": ["2100", "1995", "1950", "-", "1695", "1495", "1350", "-"]},
+                { "name": "Creative cut and color - Klipp och färg men två eller flera valda nyanser rekommenderas till långa, tjocka hår (150 min)", "price": ["2800", "2650", "2500", "-", "2000", "1800", "-", "-", "-"]},
+                { "name": "Perfect cut and foiling full head - Klippning och slingor i hela håret, nyansering ingår (180 min)", "price": ["3800", "3500", "3300", "-", "2900", "2500", "-", "-"]},
+                { "name": "Perfect cut and foiling half head - Klippning och slingor i överhåret, nyansering ingår (150 min)", "price": ["3200", "3000", "2800", "-", "2500", "1900", "-", "-"]},
+                { "name": "Cut and color balayage - Klipp och färg med den senaste balayage tekniken (180 min)", "price": ["3800", "3650", "3500", "-", "3200", "2500", "-", "-"]},
+                { "name": "Brow shape - Brynplock (15min)", "price": ["250", "250", "250", "-", "250", "250", "250", "-"]},
+                { "name": "Brow shape and color - Brynplock och färg (30min)", "price": ["325", "325", "325", "-","3 25", "325", "325", "-"]},
+                { "name": "Brow & lashes - Bryn och frans fix (45min)", "price": ["450", "450", "450", "-", "450", "450", "450", "-"]},
+                { "name": "Touch up - lugg eller putsning av din frisyr (10 min) vid ny bokning inom 8 v ingår detta emellan.", "price": ["350", "275", "250", "250", "250", "175", "100", "250"]},
+                { "name": "Make up - Sminkning med vårt ekologiska smink från Aveda. (45 min)", "price": ["600", "600", "600", "-", "600", "500", "-", "-"]}
+            ],
+            "hairColor": [
+                { "name": "Classic color - Färg med en vald nyans. rekommenderas till utväxtfärg ( 90 min)", "price": ["1700","1600","1500","-","1400","1000","700","-"]},
+                { "name": "Creative color - Färg med två eller flera nyanser. Ej bleknings tekniker. Rekommenderas för dig med långt hår(120 min)", "price": ["2500","2300","2000","-","1800","1400","-","-"]},
+                { "name": "Perfect foiling half head -Slingor överhår (120 min)", "price": ["2700","2500","2200","-","1800","1400","-","-"]},
+                { "name": "Perfect foiling full head -Slingor i hela håret (150min)", "price": ["3500","3300","3100","-","2800","2200","-","-"]},
+                { "name": "Glossing (45 min) - Ger håret glans och nyans, perfekt mellan dina färgningar för att ge färgen nytt liv.", "price": ["1000","1000","1000","-","1000","800","600","-"]},
+                { "name": "Nyansering i samband med övrig behandling (15min)", "price": ["500","500","500","-","500","500","500","-"]},
+                { "name": "Balayage color - Senaste tekniken med mörkare hårbotten och ljusare längder. Rekommenderas på medel/långa hår. Nyansering ingår (150 min)", "price": ["3500","3300","3100","-","2800","2200","-","-"]},
+                { "name": "Totally blond short hair - Helblekning i utväxt max 3 cm nyansering ingår (120 min)", "price": ["2800","2650","2500","-","2200","1700","-","-"]},
+                { "name": "Totally blond long hair - helblekning på ett medellångt eller långt hår eller som har mer än 3 cm utväxt nyansering ingår( 120-210 min)", "price": ["Konsultation krävs","Konsultation krävs","Konsultation krävs","-","Konsultation krävs","Konsultation krävs","-","-"]},
+                { "name": "Wellaplex - en stärkande behandling i samband med färgning. Ingår inpackning som du får med hem. (30 min)", "price": ["595","595","595","-","595","595","-","-"]},
+                { "name": "Wellaplex fristående plex-behandling där ditt hår byggs upp och stärks inifrån. (45 min)", "price": ["895","895","895","-","895","895","-","-"]}
+            ],
+            "grooming": [
+                { "name": "Relaxing face shave - Helrakning hos vår barberare. Massage och varma handdukar ingår. (60 min)", "price": ["-","-","-","695","-","-","-","695"]},
+                { "name": "Quick fix beard shape - Snabb fix för ditt skägg (15 min)", "price": ["-","-","-","250","-","-","-","250"]},
+                { "name": "Perfect beard shape - Få en snygg form på ditt skägg, rakning med kniv och massage ingår (30 min)", "price": ["-","-","-","395","-","-","-","395"]},
+                { "name": "Men´s blending - hårfärg för killar som vill dölja de första grå ståna (30 min)", "price": ["500","500","500","500","500","500","500","500"]}
+            ],
+            "extStyling": [
+                { "name": "Styling quick fix 30 min", "price": ["600","550","500","-","450","400","250","-"]},
+                { "name": "Classic styling - (45 min) styling för bästa hållbarhet och resultat. Ingen hårtvätt ingår", "price": ["700","650","600","-","550","450","350","-"]},
+                { "name": "Luxurious styling - (60 min) styling där du även får håret tvättat och fönat.", "price": ["850","750","695","-","595","495","-","-"]},
+                { "name": "Hairtalk extensions", "price": ["-","Konsultation krävs","Konsultation krävs","-","Konsultation krävs","-","-","-"]},
+                { "name": "Mago extensions - singelslingor som knyts fast slinga för slinga. Skonsammaste metoden på marknaden.", "price": ["Konsultation krävs","Konsultation krävs","-","-","-","-","-","-"]},
+                { "name": "Go Curly - lockig permanent i hela håret, klippning ingår", "price": ["3500","3000","2700","-","2500","2000","-","-"]},
+                { "name": "Up do classic - Enklare håruppsättning. (60 min)", "price": ["1500","1300","1100","-","900","750","-","-"]},
+                { "name": "Up do advanced - en mer avancerad uppsättning tex en knut i nacken. Konsultation ingår, bokas separat", "price": ["2000","1800","1650","-","1500","1200","-","-"]}
+            ]
+        }
+    }
 }
