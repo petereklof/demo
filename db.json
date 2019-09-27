@@ -95,7 +95,8 @@
                     { 
                         "id": 13,
                         "name": "Make up - Sminkning med vårt ekologiska smink från Aveda. (45 min)", 
-                        "price": ["600", "600", "600", "-", "600", "500", "-", "-"]}
+                        "price": ["600", "600", "600", "-", "600", "500", "-", "-"]
+                    }
                 ]
             },
             {   
@@ -145,7 +146,8 @@
                     { 
                         "id": 11,
                         "name": "Wellaplex fristående plex-behandling där ditt hår byggs upp och stärks inifrån. (45 min)", 
-                        "price": ["895","895","895","-","895","895","-","-"]}
+                        "price": ["895","895","895","-","895","895","-","-"]
+                    }
                 ]
             },
             {   
@@ -167,7 +169,8 @@
                     { 
                         "id": 4,
                         "name": "Men´s blending - hårfärg för killar som vill dölja de första grå ståna (30 min)", 
-                        "price": ["500","500","500","500","500","500","500","500"]}
+                        "price": ["500","500","500","500","500","500","500","500"]
+                    }
                 ]
             },  
             {
@@ -205,7 +208,8 @@
                     { 
                         "id": 8,
                         "name": "Up do advanced - en mer avancerad uppsättning tex en knut i nacken. Konsultation ingår, bokas separat", 
-                        "price": ["2000","1800","1650","-","1500","1200","-","-"]}
+                        "price": ["2000","1800","1650","-","1500","1200","-","-"]
+                    }
                 ]
             }
         ]
