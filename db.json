@@ -48,7 +48,7 @@
                     { "id": 2,  "name": "Back and the sides", "price": ["350", "250", "250", "250", "250", "175", "150", "250"]},
                     { "id": 3,  "name": "Junior haircut - Klippning barn,max 7 år, utan tvättning av hår(30 min)", "price": ["-", "-", "-", "610", "495", "450", "395", "695"]},
                     { "id": 4,  "name": "Classic cut and color- Klipp och färg med en vald nyans. rekommenderas till korta hår120 min)",  "price": ["2100", "1995", "1950", "-", "1695", "1495", "1350", "-"]},
-                    { "id": 5,  "name": "Creative cut and color - Klipp och färg men två eller flera valda nyanser rekommenderas till långa, tjocka hår (150 min)", "price": ["2800", "2650", "2500", "-", "2000", "1800", "-", "-", "-"]},
+                    { "id": 5,  "name": "Creative cut and color - Klipp och färg men två eller flera valda nyanser rekommenderas till långa, tjocka hår (150 min)", "price": ["2800", "2650", "2500", "-", "2000", "1800", "-", "-"]},
                     { "id": 6,  "name": "Perfect cut and foiling full head - Klippning och slingor i hela håret, nyansering ingår (180 min)", "price": ["3800", "3500", "3300", "-", "2900", "2500", "-", "-"]},
                     { "id": 7,  "name": "Perfect cut and foiling half head - Klippning och slingor i överhåret, nyansering ingår (150 min)", "price": ["3200", "3000", "2800", "-", "2500", "1900", "-", "-"]},
                     { "id": 8,  "name": "Cut and color balayage - Klipp och färg med den senaste balayage tekniken (180 min)", "price": ["3800", "3650", "3500", "-", "3200", "2500", "-", "-"]},
