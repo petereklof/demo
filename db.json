@@ -62,7 +62,7 @@
             {   
                 "id": 2,
                 "name": "Hair color treatment & add on",
-                "varitions": [                        
+                "variations": [                        
                     { "name": "Classic color - Färg med en vald nyans. rekommenderas till utväxtfärg ( 90 min)", "price": ["1700","1600","1500","-","1400","1000","700","-"]},
                     { "name": "Creative color - Färg med två eller flera nyanser. Ej bleknings tekniker. Rekommenderas för dig med långt hår(120 min)", "price": ["2500","2300","2000","-","1800","1400","-","-"]},
                     { "name": "Perfect foiling half head -Slingor överhår (120 min)", "price": ["2700","2500","2200","-","1800","1400","-","-"]},
